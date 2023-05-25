@@ -11,7 +11,6 @@
   white-space: nowrap;
   border-right: 1px solid black;
   animation: typing 2s steps(40), blink-caret 0.75s step-end infinite;
-  margin-bottom: 25px;
 }
 
 @media (max-width: 900px) {
@@ -40,7 +39,8 @@
 }
   
 h4 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   }
   
 p {
