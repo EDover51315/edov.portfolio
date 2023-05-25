@@ -1,6 +1,15 @@
 /* -----------------------------------------
   Have focus outline only for keyboard users 
  ---------------------------------------- */
+var typed = new Typed(".typing-text", {
+    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    loop: true,
+    typeSpeed: 50,
+    backSpeed: 25,
+    backDelay: 500,
+});
+
+
 
 window.addEventListener('DOMContentLoaded', (event) => {
   const header = document.getElementById('typing-header');
