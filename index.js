@@ -12,7 +12,7 @@ var typed = new Typed(".typing-text", {
 
 
 window.addEventListener('DOMContentLoaded', (event) => {
-  const header = document.getElementById('typing-header');
+  const header = document.getElementById('typey');
   const headerText = header.innerHTML;
   header.innerHTML = '';
 
