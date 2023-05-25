@@ -2,7 +2,7 @@
   Have focus outline only for keyboard users 
  ---------------------------------------- */
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["can you see this pussy bitch", "what the fuck"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
