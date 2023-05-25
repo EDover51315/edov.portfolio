@@ -18,12 +18,26 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+  
+  .profile-pic {
+        width: 150px;
+        margin-left: auto;
+  margin-top: 75px;
+  margin-right: 75px;
+}
 }
   
   @media (max-width: 600px) {
   .header__text-box {
     padding: 0 var(--gutter-small);
   }
+    
+    .profile-pic {
+        width: 100px;
+        margin-left: auto;
+  margin-top: 50px;
+  margin-right: 50px;
+}
 }
 
 .header__text-box {
