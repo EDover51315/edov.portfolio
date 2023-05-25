@@ -2,10 +2,6 @@
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
 
-@keyframes typing {
-  from { width: 0; }
-}
-
 #typey {
   overflow: hidden;
   white-space: nowrap;
@@ -13,53 +9,9 @@
   animation: typing 2s steps(40), blink-caret 0.75s step-end infinite;
 }
 
-@media (max-width: 900px) {
-.header__text-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 
-.profile-pic {
-  margin-top: 75px;
-  margin-right: 75px;
-  width: 150px;
-  position: relative;
-  z-index: 1;
-}
-
-.header__text {
-  position: relative;
-  z-index: 2;
-}
- 
-}
-  
-  @media (max-width: 600px) {
-    
-  .header__text-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.profile-pic {
-  margin-top: 50px;
-  margin-right: 50px;
-  width: 100px;
-  position: relative;
-  z-index: 1;
-}
-
-.header__text {
-  position: relative;
-  z-index: 2;
-}
- 
+@keyframes typing {
+  from { width: 0; }
 }
 
 .header__text-box {
@@ -681,4 +633,53 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+@media (max-width: 900px) {
+.header__text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-pic {
+  margin-top: 75px;
+  margin-right: 75px;
+  width: 150px;
+  position: relative;
+  z-index: 1;
+}
+
+.header__text {
+  position: relative;
+  z-index: 2;
+}
+ 
+}
+  
+  @media (max-width: 600px) {
+    
+  .header__text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-pic {
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.header__text {
+  position: relative;
+  z-index: 2;
+}
+ 
 }
