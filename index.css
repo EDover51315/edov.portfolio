@@ -68,6 +68,7 @@ html {
 
 .profile-pic {
         width: 200px;
+        float: right;
 }
 
 body {
@@ -126,7 +127,7 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Courier', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
     color: var(--white);
