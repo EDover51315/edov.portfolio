@@ -13,19 +13,6 @@
   animation: typing 2s steps(40, end);
 }
 
-@font-face {
-    font-family: 'Courier';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Courier';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/Jost-Regular.ttf') format('woff');
-}
 
 * {
     margin: 0;
