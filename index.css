@@ -13,6 +13,30 @@
   animation: typing 2s steps(40), blink-caret 0.75s step-end infinite;
 }
 
+@media (max-width: 900px) {
+  .header__text-box {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+  .header__text-box {
+    padding: 0 var(--gutter-small);
+  }
+}
+
+.header__text-box {
+   display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+        width: 200px;
+        margin-left: auto;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+  
 p {
     font-family: 'Courier';
 }
@@ -65,19 +89,7 @@ html {
     html {
         font-size: 52%;
     }
-}
-
-.header__text-box {
-   display: flex;
-  align-items: center;
-}
-
-.profile-pic {
-        width: 200px;
-        margin-left: auto;
-  margin-top: 100px;
-  margin-right: 100px;
-}
+  }
 
 body {
     font-size: var(--font-size-small);
