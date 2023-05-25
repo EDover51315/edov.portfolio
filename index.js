@@ -2,6 +2,21 @@
   Have focus outline only for keyboard users 
  ---------------------------------------- */
 
+window.addEventListener('DOMContentLoaded', (event) => {
+  const header = document.getElementById('typing-header');
+  const headerText = header.innerHTML;
+  header.innerHTML = '';
+
+  let index = 0;
+  const interval = setInterval(() => {
+    header.innerHTML += headerText[index];
+    index++;
+    if (index >= headerText.length) {
+      clearInterval(interval);
+    }
+  }, 100);
+});
+
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
     document.body.classList.add('user-is-tabbing')
