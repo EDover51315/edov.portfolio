@@ -655,6 +655,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text {
+  margin-top: 10px;
   position: relative;
   z-index: 2;
 }
@@ -682,6 +683,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text {
+  margin-top: 25px;
   position: relative;
   z-index: 2;
 }
