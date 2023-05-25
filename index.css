@@ -645,7 +645,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .profile-pic {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 75px;
   width: 175px;
   position: relative;
@@ -672,7 +672,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .profile-pic {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 50px;
   width: 150px;
   position: relative;
