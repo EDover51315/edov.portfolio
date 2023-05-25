@@ -13,6 +13,9 @@
   animation: typing 2s steps(40, end);
 }
 
+p {
+    font-family: var(--font-stack);
+}
 
 * {
     margin: 0;
