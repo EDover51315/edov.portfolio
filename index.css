@@ -67,6 +67,11 @@ html {
     }
 }
 
+.header__text-box {
+   display: flex;
+  align-items: center;
+}
+
 .profile-pic {
         width: 200px;
         margin-left: auto;
